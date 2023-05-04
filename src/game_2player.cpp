@@ -43,7 +43,7 @@ int display(char a[9])
 
 int main()
 {
-    char a[9];
+    char a[9] = {'\0'};
     bool win;
     int temp, index = 0;
 
